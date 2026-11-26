@@ -17,5 +17,4 @@ buttons.forEach(function (button) {
     window.alert("You got: " + randomNumber);
   });
   console.log("buttons");
-  console.log("scores");
 });

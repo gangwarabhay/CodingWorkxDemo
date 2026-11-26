@@ -20,4 +20,5 @@ buttons.forEach(function(button) {
 
     });
 console.log(buttons);
+console.log(scores);
 });

@@ -19,5 +19,5 @@ buttons.forEach(function(button) {
         alert("You got: " + randomNumber);
 
     });
-// this is comment
+console.log(buttons);
 });

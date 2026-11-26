@@ -13,9 +13,17 @@ buttons.forEach(function (button) {
     // Add random number to the score
     scores[player].innerText = currentScore + randomNumber;
 
-    // Show the dice number
-    window.alert("You got: " + randomNumber);
-  });
-  console.log("buttons");
-  console.log("scores");
+
+        let currentScore = Number(scores[player].innerText);
+
+        // Add random number to the score
+        scores[player].innerText = currentScore + randomNumber;
+
+        // Show the dice number
+        alert("You got: " + randomNumber);
+
+    });
+    // this is the example of rebase
+console.log(buttons);
 });
+

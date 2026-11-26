@@ -5,8 +5,11 @@ body {
   background-color: lightgreen;
 }
 h1 {
-  color: navy;
+  color: rgb(128, 77, 0);
   margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
 }
 p{
     color: red;

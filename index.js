@@ -14,7 +14,7 @@ buttons.forEach(function (button) {
     scores[player].innerText = currentScore + randomNumber;
 
     // Show the dice number
-    alert("You got: " + randomNumber);
+    window.alert("You got: " + randomNumber);
   });
   console.log("buttons");
   console.log("scores");

@@ -3,8 +3,8 @@ let scores = document.querySelectorAll(".score");
 
 buttons.forEach(function (button) {
   button.addEventListener("click", function () {
-    // Generate random number between 1 and 6
-    let randomNumber = Math.floor(Math.random() * 6) + 1;
+    // Generate random number between 0 and 6
+    let randomNumber = Math.floor(Math.random() * 6);
 
     let player = button.dataset.player;
 

@@ -19,5 +19,6 @@ buttons.forEach(function(button) {
         alert("You got: " + randomNumber);
 
     });
+    // this is the example of rebase
 console.log(buttons);
 });

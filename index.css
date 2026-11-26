@@ -1,8 +1,8 @@
 body {
-  background-color: lightblue;
+  background-color: lightpink;
 }
 #table{
-  background-color: lightgreen;
+  background-color: lightgray;
 }
 h1 {
   color: rgb(128, 77, 0);
@@ -15,5 +15,5 @@ p{
     color: red;
 }
 .score{
-    background-color: green;
+    background-color: cyan;
 }

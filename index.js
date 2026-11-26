@@ -1,14 +1,18 @@
 let buttons = document.querySelectorAll("button");
 let scores = document.querySelectorAll(".score");
 
-buttons.forEach(function(button) {
+buttons.forEach(function (button) {
+  button.addEventListener("click", function () {
+    // Generate random number between 1 and 6
+    let randomNumber = Math.floor(Math.random() * 6) + 1;
 
-    button.addEventListener("click", function() {
+    let player = button.dataset.player;
 
-        // Generate random number between 1 and 6
-        let randomNumber = Math.floor(Math.random() * 6) + 1;
+    let currentScore = Number(scores[player].innerText);
 
-        let player = button.dataset.player;
+    // Add random number to the score
+    scores[player].innerText = currentScore + randomNumber;
+
 
         let currentScore = Number(scores[player].innerText);
 
@@ -22,3 +26,4 @@ buttons.forEach(function(button) {
     // this is the example of rebase
 console.log(buttons);
 });
+
